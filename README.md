@@ -1,3 +1,9 @@
 # adaptiveparallax
+
 Example of simple parallax effect which works both on desktop and mobile screens.
-Also you will find navbar/content appear on scroll functionality.
+
+You will also find:
+- navbar/content appear on scroll functionality;
+- caret shange on click up and down;
+- nice animated underline on navigation links hover;
+
