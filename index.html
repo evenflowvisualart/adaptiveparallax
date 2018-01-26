@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <title>Adaptive parallax</title>
+    <meta name="description" content="Adaptive parallax">
+    <meta name="keywords" content="">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<header class="main-one">
+      <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                <p class="mini-logo">Đukić law firm</p>
+ <!--Collapsable mobile nav-->
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>  
+        </div>
+       <div class="collapse navbar-collapse" id="collapsable-nav">
+                <ul class="navigation">
+                   <li><a class="category" href="">about</a></li>
+                   <li><a class="category" href="">expertise</a></li>
+                    <li><a class="navbar-brand" href=""><object type="image/svg+xml" data="images/nemanjalogo.svg" id="logo"></object></a></li>
+                    <li><a class="category" href="">blog</a></li>
+                    <li><a class="category" href="">contact</a></li>
+                </ul>
+        </div> 
+  <!--Collapsable mobile nav end-->
+    </div> 
+      </nav>
+       <div class="mobile-parallax">
+		<div class="img">
+			<img class="landscape" src="images/belgrade-06b.jpg" alt="cityscape"/>
+		</div>
+    </div>
+    </header>
+    
+<!--scrollable nav-->
+    <nav class="navbarscroll navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                <p class="mini-logo">Đukić law firm</p>
+ <!--Collapsable mobile nav-->
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>  
+        </div>
+       <div class="collapse navbar-collapse" id="collapsable-nav1">
+               <ul class="navigation">
+                   <li><a class="category" href="#omeni">about</a></li>
+                   <li><a class="category" href="#oblasti">expertise</a></li>
+                    <li><a class="navbar-brand" href="#"><object type="image/svg+xml" data="images/nemanjalogo.svg" id="logo"></object></a></li>
+                    <li><a class="category" href="cms/">blog</a></li>
+                    <li><a class="category" href="kontakt.php">contact</a></li>
+                </ul>
+        </div> 
+    </div> 
+      </nav>
+      
+<!--sections-->
+
+<div id="me">
+ <section id="about">
+   <div class="container">
+             <h2>About me</h2>
+             <div class="separator"></div>
+             <div class="up">
+              <ul>
+                   <li>
+                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p></li>
+                   <li><img src="images/nemanja.png" alt="profile photo"></li>
+               </ul>
+           </div>
+        </div>
+    </section>
+</div>
+   
+  
+<div id="area">
+<section id="practice">
+   <div class="container">
+             <h2>Areas of expertise</h2>
+             <div class="separator"></div> 
+             
+    <!--accordion-->
+            <div class="up">
+             <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        Civil law</a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body"><ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    Contract law</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body"><ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                     </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    Copyright law</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body"><ul>
+                       <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                       </ul>
+                    </div>
+                </div>
+              </div>
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                    Criminal law</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body"><ul>
+                       <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div> 
+  <!--accordion end-->
+        </div>
+    </div> <!--up-->
+ </section>
+</div>
+ 
+ <section id="contact-short">
+   <div class="container">
+            <div class="up">
+             <div class="contact-short">
+                 <p style="color:#337ab7;">Somewhere 81, 11000 Belgrade</p>
+                 <p><a href="tel://+381-00-1234-5678">000 1234 - 5678</a></p>
+                 <p><a href="mailto:someone@gmail.com">someone@gmail.com</a></p>
+             </div>
+           </div>
+         </div>
+ </section>
+ 
+<footer id="footer-contact">
+           <div class="container">
+           <i class="fa fa-facebook" aria-hidden="true"></i>
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <div class="copyright">
+                <p>&copy; 2018 Evenflow Visual Art. All rights reserved. </p>
+            </div>
+      </div>
+</footer>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/functionality.js"></script>
+  </body>
+</html>
