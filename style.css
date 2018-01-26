@@ -270,6 +270,11 @@ body {
     font-family: 'Open Sans','Geneva', sans-serif;
 }
 
+.fa.fa-caret-down, .fa.fa-caret-right {
+    float: right;
+    padding: 7px 0;
+}
+
 
 /*------------------------------------*\
   #SECTION CONTACT-SHORT
