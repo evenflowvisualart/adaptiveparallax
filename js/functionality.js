@@ -19,24 +19,12 @@ $(document).ready(function(){
 });
 
 
-//navbar appear on scroll
-
 //content appear on scroll
 
    
 $(window).scroll(function(){
         
-    if ($(this).scrollTop() > 500) {
-
-         $('.navbarscroll').fadeIn();  
-
-    } else {
-
-        $('.navbarscroll').fadeOut();
-
-    }
-
-       
+  
     $('.up').each(function(i){
                      
          var objTop = $(this).offset().top; 
